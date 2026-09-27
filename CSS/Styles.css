@@ -1,0 +1,39 @@
+
+
+.grtext {
+    font-size: 38px;
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-cont {
+    height: 50%;
+}
+
+
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.viola {
+    width: 100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 900px){
+    .grtext {
+        font-size: 20px;
+    }
+
+    .viola {
+        display: none;
+    }
+}
